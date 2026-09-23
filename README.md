@@ -10,18 +10,18 @@ The study uses monthly climate data from 29 meteorological stations (1982–2022
 
 Contains the Pearson correlation and lagged-correlation analysis used to investigate statistical relationships between Bangladesh climate variables and ENSO indices.
 
-### `Original_Data_Scripts/`
+### `Original\_Data\_Scripts/`
 
 Contains machine-learning regression scripts using the original monthly climate signals without wavelet decomposition.
 
 The experiments are organized by:
 
-- **`Multi_Station/`** — climate information from all 29 stations is used together.
-- **`Single_Station/`** — each station is modeled separately.
-- **`Single_Index/`** — Tmax, Tmin, and individual precipitation indices are modeled separately.
-- **`Composite_Indices/`** — the five precipitation indices are combined as predictors.
+* **`Multi\_Station/`** — climate information from all 29 stations is used together.
+* **`Single\_Station/`** — each station is modeled separately.
+* **`Single\_Index/`** — Tmax, Tmin, and individual precipitation indices are modeled separately.
+* **`Composite\_Indices/`** — the five precipitation indices are combined as predictors.
 
-### `Wavelet_Components/`
+### `Wavelet\_Components/`
 
 Contains the scripts required for wavelet-enhanced machine-learning regression.
 
@@ -29,18 +29,18 @@ The same scripts process the required MATLAB data for the different climate vari
 
 The wavelet approaches include:
 
-- Haar
-- Db4
-- Coif3
-- TQWT
+* Haar
+* Db4
+* Coif3
+* TQWT
 
 ## Machine-Learning Models
 
 The regression framework uses:
 
-- Random Forest (RF)
-- XGBoost
-- LightGBM
+* Random Forest (RF)
+* XGBoost
+* LightGBM
 
 The objective is to evaluate whether wavelet-based multi-resolution representations of Bangladesh hydroclimatic variability provide additional information for characterizing ENSO-related SST variability.
 
@@ -49,17 +49,18 @@ This repository provides the computational record of the analysis supporting the
 ## Contact
 
 **James Sarker Shuva**  
-Civil Engineering  
+Civil Engineering Graduate
 Leading University, Sylhet, Bangladesh
 
 Research interests include:
 
-- Hydroclimatology
-- Climate variability and teleconnections
-- Hydrology
-- Machine learning
-- Wavelet analysis
-- Extreme precipitation
-- GIS and spatial analysis
+* Hydroclimatology
+* Climate variability and teleconnections
+* Hydrology
+* Machine learning
+* Wavelet analysis
+* Extreme precipitation
+* GIS and spatial analysis
 
 **GitHub:** `sarkerjams-coder`
+
